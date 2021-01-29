@@ -1,4 +1,6 @@
+using System;
 using MutableObjects.Bool;
+using MutableObjects.Vector3;
 using UnityEngine;
 
 public class BoatController : MonoBehaviour
@@ -8,12 +10,18 @@ public class BoatController : MonoBehaviour
     [SerializeField] private float turnSpeed = 1f;
     [SerializeField] private float maxSpeed = 3f;
     [SerializeField] private MutableBool movementActive;
-    
+    [SerializeField] private MutableVector3 boatPosition;
+
     private Rigidbody2D rb;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        boatPosition.Value = transform.position;
     }
 
     void FixedUpdate () {

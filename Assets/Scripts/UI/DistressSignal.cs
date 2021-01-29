@@ -18,7 +18,7 @@ namespace UI
 
         void Update()
         {
-            screenPos = camera.WorldToViewportPoint(transform.position); //get viewport positions
+            screenPos = camera.WorldToViewportPoint(transform.position);
 
             if (screenPos.x >= 0 && screenPos.x <= 1 && screenPos.y >= 0 && screenPos.y <= 1)
             {
@@ -26,11 +26,10 @@ namespace UI
                 return;
             }
 
-            onScreenPos = new Vector2(screenPos.x - 0.5f, screenPos.y - 0.5f) * 2; //2D version, new mapping
-            max = Mathf.Max(Mathf.Abs(onScreenPos.x), Mathf.Abs(onScreenPos.y)); //get largest offset
-            onScreenPos = (onScreenPos / (max * 2)) + new Vector2(0.5f, 0.5f); //undo mapping
+            onScreenPos = new Vector2(screenPos.x - 0.5f, screenPos.y - 0.5f) * 2; 
+            max = Mathf.Max(Mathf.Abs(onScreenPos.x), Mathf.Abs(onScreenPos.y));
+            onScreenPos = (onScreenPos / (max * 2)) + new Vector2(0.5f, 0.5f);
             var arrowPos = camera.ViewportToWorldPoint(new Vector3(onScreenPos.x, onScreenPos.y, 0f));
-            Debug.Log(arrowPos);
             arrow.position = new Vector3(arrowPos.x, arrowPos.y, 0f);
         }
     }
