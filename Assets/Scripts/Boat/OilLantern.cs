@@ -10,6 +10,7 @@ public class OilLantern : MonoBehaviour
     [SerializeField] private float oilSeconds = 20f;
     [SerializeField] private float fullLanternRadius;
     [SerializeField] private float dimmingLightThreshold = 10f;
+    [SerializeField] private float refillSpeed = 2.6f;
     [SerializeField] private MutableBool movementActive;
 
     void Start()
@@ -30,7 +31,7 @@ public class OilLantern : MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
             {
                 movementActive.Value = false;
-                oilSeconds += Time.deltaTime*2;
+                oilSeconds += Time.deltaTime * refillSpeed;
                 if (oilSeconds >= dimmingLightThreshold)
                 {
                     oilSeconds = maxOilSeconds;
@@ -38,7 +39,7 @@ public class OilLantern : MonoBehaviour
                 }
             }
         }
-        
+
         if (Input.GetKeyUp(KeyCode.Space))
         {
             movementActive.Value = true;
