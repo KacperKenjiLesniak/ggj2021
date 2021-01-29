@@ -2344,6 +2344,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2037175308664090336, guid: 5a02c6fdc9ee50d49b9c1b64b9261c14, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037175308664090336, guid: 5a02c6fdc9ee50d49b9c1b64b9261c14, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037175308964775462, guid: 5a02c6fdc9ee50d49b9c1b64b9261c14, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037175308964775462, guid: 5a02c6fdc9ee50d49b9c1b64b9261c14, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a02c6fdc9ee50d49b9c1b64b9261c14, type: 3}
 --- !u!1 &1083382581
