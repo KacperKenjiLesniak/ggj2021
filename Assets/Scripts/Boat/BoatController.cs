@@ -1,12 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BoatController : MonoBehaviour
 {
     
-    [SerializeField] private float accel = 1.5f;
+    [SerializeField] private float acceleration = 1.5f;
     [SerializeField] private float turnSpeed = 1f;
     [SerializeField] private float maxSpeed = 3f;
 
@@ -21,7 +18,7 @@ public class BoatController : MonoBehaviour
 
         if (Input.GetAxis("Vertical") != 0)
         {
-            rb.AddRelativeForce((Input.GetAxis("Vertical") > 0 ? Vector2.up : Vector2.down) * accel);
+            rb.AddRelativeForce((Input.GetAxis("Vertical") > 0 ? Vector2.up : Vector2.down) * acceleration);
 
             if (rb.velocity.magnitude > maxSpeed)
             {
