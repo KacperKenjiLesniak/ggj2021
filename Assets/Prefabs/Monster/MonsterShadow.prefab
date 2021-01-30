@@ -99,7 +99,7 @@ MonoBehaviour:
   boatPosition: {fileID: 11400000, guid: d90c786e9c6a81d4eaacd4bf03891727, type: 2}
   shadowAttractRadius: 25
   shadowFollowRadius: 10
-  shadowSpeed: 3
+  shadowSpeed: 7
 --- !u!95 &7432632045278313172
 Animator:
   serializedVersion: 3
