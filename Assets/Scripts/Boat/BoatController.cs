@@ -46,7 +46,7 @@ public class BoatController : MonoBehaviour
 
             if (Input.GetAxis("Horizontal") != 0)
             {
-                var scale = Mathf.Lerp(0f, turnSpeed, rb.velocity.magnitude / maxSpeed);
+                var scale = Mathf.Lerp(0.5f, turnSpeed, rb.velocity.magnitude / maxSpeed);
                 rb.AddTorque(-Input.GetAxis("Horizontal") * scale);
             }
         }
