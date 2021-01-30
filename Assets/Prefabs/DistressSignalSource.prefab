@@ -221,6 +221,22 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 5381143212392152615, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_Size.x
+      value: 5.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381143212392152615, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_Size.y
+      value: 9.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381143212392152615, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f409a6491d9a6443ab23ed4a73e6014, type: 3}
+    - target: {fileID: 5381143212392152615, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5381143212392152793, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
       propertyPath: m_Name
       value: MessageInTheBottle
