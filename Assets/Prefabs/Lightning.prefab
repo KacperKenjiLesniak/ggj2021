@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb25b9bd7a99d664aa4d594e15c1b7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  odds: 2
+  thunderEvent: {fileID: 11400000, guid: ae4c1afb446f68347b790c8f916e3bc0, type: 2}
   maxLightningInterval: 5
   animator: {fileID: 5400694210941208840}
   xPosLimit: 50

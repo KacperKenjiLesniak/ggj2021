@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using GameEvents.Game;
+using GameEvents.String;
 using UnityEngine;
 
 public class LightningManager : MonoBehaviour
 {
 
-    [SerializeField] private int odds;
+    [SerializeField] private StringGameEvent thunderEvent;
     [SerializeField] private int maxLightningInterval;
     [SerializeField] private Animator animator;
     private int randomNumber;
@@ -26,6 +28,7 @@ public class LightningManager : MonoBehaviour
 
         Invoke(nameof(Lighting), Random.Range(1, maxLightningInterval));
         Invoke(nameof(LightningOff), 0.5f);
+        thunderEvent.RaiseGameEvent(Random.Range(0, 1) >= 0.5f ? "thunder1" : "thunder2");
     }
 
     void LightningOff()

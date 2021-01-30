@@ -13,7 +13,8 @@ public class AudioManager : MonoBehaviour
             sound.source = gameObject.AddComponent<AudioSource>();
             sound.source.clip = sound.clip;
             sound.source.volume = sound.volume;
-            sound.source.pitch = sound.pitch; 
+            sound.source.pitch = sound.pitch;
+            sound.source.playOnAwake = false;
         }
     }
 
