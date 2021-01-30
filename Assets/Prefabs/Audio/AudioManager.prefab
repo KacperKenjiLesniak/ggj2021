@@ -44,7 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf224955d5c43fd4e8ab497ecde332c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: thunder1
+    clip: {fileID: 8300000, guid: 12db856a8b1d8914aaa51b436ff219d5, type: 3}
+    volume: 0.96
+    pitch: 1
+    source: {fileID: 0}
+  - name: thunder2
+    clip: {fileID: 8300000, guid: 56c858c040558dd419c63083a64e64af, type: 3}
+    volume: 0.97
+    pitch: 1
+    source: {fileID: 0}
 --- !u!114 &6475433877858129735
 MonoBehaviour:
   m_ObjectHideFlags: 0
