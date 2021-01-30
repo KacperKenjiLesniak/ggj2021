@@ -9572,6 +9572,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1621410520}
     m_Modifications:
+    - target: {fileID: 2894099747280529457, guid: 56b322b0763296f42a22744ab8db1f53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7588077646227831665, guid: 56b322b0763296f42a22744ab8db1f53, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -14257,6 +14261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1621410520}
     m_Modifications:
+    - target: {fileID: 365199871308302735, guid: b8d5038826e55df43bfd6b23ba0cce44, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4933375983417842377, guid: b8d5038826e55df43bfd6b23ba0cce44, type: 3}
       propertyPath: m_Name
       value: Lifeboat
