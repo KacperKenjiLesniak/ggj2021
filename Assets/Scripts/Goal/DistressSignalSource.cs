@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace UI
 {
@@ -46,7 +47,7 @@ namespace UI
                 }
                 else
                 {
-                    Debug.Log("End animation");
+                    GetComponentInChildren<PlayableDirector>().Play();
                 }
             }
         }
