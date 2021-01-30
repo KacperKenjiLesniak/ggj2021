@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thunderEvent: {fileID: 11400000, guid: ae4c1afb446f68347b790c8f916e3bc0, type: 2}
-  maxLightningInterval: 5
+  maxLightningInterval: 12
   animator: {fileID: 5400694210941208840}
   xPosLimit: 50
   yPosLimit: 25

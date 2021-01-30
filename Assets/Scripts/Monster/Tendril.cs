@@ -1,4 +1,5 @@
 ﻿using System;
+using GameEvents.Game;
 using MutableObjects.Int;
 using MutableObjects.Vector3;
 using UnityEngine;
@@ -7,6 +8,8 @@ namespace Monster
 {
     public class Tendril : MonoBehaviour
     {
+        [SerializeField] private GameEvent monsterRisingEvent;
+        [SerializeField] private GameEvent monsterAttackEvent;
         [SerializeField] private MutableVector3 boatPosition;
         [SerializeField] private MutableInt boatHealth;
         [SerializeField] private float tendrilSpeed;
@@ -20,6 +23,8 @@ namespace Monster
         private bool attacking;
         private float attackCooldownTimer;
         private bool disappearing;
+        private bool risingSoundPlayed;
+        private bool attackSoundPlayed;
 
         private void Update()
         {
@@ -37,6 +42,12 @@ namespace Monster
                 }
                 else
                 {
+                    if (!risingSoundPlayed)
+                    {
+                        risingSoundPlayed = true;
+                        monsterRisingEvent.RaiseGameEvent();
+                    }
+                    
                     if (transform.localScale.x <= maxScale)
                     {
                         transform.localScale *= (1 + (scaleSpeed * Time.deltaTime));
@@ -67,6 +78,11 @@ namespace Monster
         {
             if (attacking && attackCooldownTimer <= 0f && other.CompareTag("Player"))
             {
+                if (!attackSoundPlayed)
+                {
+                    monsterAttackEvent.RaiseGameEvent();
+                    attackSoundPlayed = true;
+                }
                 boatHealth.Value -= 1;
                 Debug.Log("Bralwhahlh tendril attacks!");
                 Debug.Log("Boat health: " + boatHealth.Value);
