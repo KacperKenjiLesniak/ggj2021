@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7491705165926178987}
   - component: {fileID: 7491705165926178984}
   - component: {fileID: 7491705165926178999}
+  - component: {fileID: -9083448311327129682}
   m_Layer: 0
   m_Name: PlankSmall
   m_TagString: Obstacle
@@ -200,3 +201,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomForceStrength: 5
+--- !u!114 &-9083448311327129682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7491705165926178988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d19a2143ae14647ab85c794abb3d32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

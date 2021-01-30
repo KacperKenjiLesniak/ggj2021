@@ -12,6 +12,7 @@ public class BoatController : MonoBehaviour
     [SerializeField] private MutableBool movementActive;
     [SerializeField] private MutableVector3 boatPosition;
     [SerializeField] private AudioSource rowingSource;
+    [SerializeField] private float boatRowingVolume = 0.6f;
 
     private Rigidbody2D rb;
 
@@ -36,7 +37,7 @@ public class BoatController : MonoBehaviour
                 {
                     rb.velocity = rb.velocity.normalized * maxSpeed;
                 }
-                rowingSource.volume = 1f;
+                rowingSource.volume = boatRowingVolume;
             }
             else
             {

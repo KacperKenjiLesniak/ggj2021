@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1056969334087216601}
   - component: {fileID: 1056969334087216602}
   - component: {fileID: 1056969334087216581}
+  - component: {fileID: -713395072722157742}
   m_Layer: 0
   m_Name: Wood
   m_TagString: Obstacle
@@ -200,3 +201,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomForceStrength: 5
+--- !u!114 &-713395072722157742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056969334087216606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d19a2143ae14647ab85c794abb3d32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
