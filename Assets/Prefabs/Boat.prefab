@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 3193661955388246648}
   - component: {fileID: 2200717931819830139}
   - component: {fileID: 3927117785915083019}
+  - component: {fileID: 6786786379823191908}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Player
@@ -511,6 +512,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6786786379823191908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193661956116069397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de21cfd905a845b986d745fc202beb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boatHealth: {fileID: 11400000, guid: c3fab77d792b33d46870731c9913deca, type: 2}
+  boatDamagedEvent: {fileID: 11400000, guid: 583afd8913969764ea5f9b04553cf913, type: 2}
+  collisionSpeedThreshold: 1
 --- !u!1001 &1988550875204145553
 PrefabInstance:
   m_ObjectHideFlags: 0

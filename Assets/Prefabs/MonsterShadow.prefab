@@ -96,6 +96,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boatPosition: {fileID: 11400000, guid: d90c786e9c6a81d4eaacd4bf03891727, type: 2}
-  shadowAttractRadius: 10
-  shadowFollowRadius: 3
+  shadowAttractRadius: 25
+  shadowFollowRadius: 10
   shadowSpeed: 3
