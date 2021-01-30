@@ -2919,7 +2919,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 964119829736415520, guid: 48b08b0b5a4bc2d469762a769be37dd9, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 964119829736415520, guid: 48b08b0b5a4bc2d469762a769be37dd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5553,7 +5553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1388868912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6331,7 +6331,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -6853,6 +6853,34 @@ PrefabInstance:
     - target: {fileID: 3193661956116069397, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
       propertyPath: m_Name
       value: Boat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[107].x
+      value: 0.98999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[107].y
+      value: -2.1599998
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[108].x
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[108].y
+      value: -2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[109].x
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[109].y
+      value: -1.78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
