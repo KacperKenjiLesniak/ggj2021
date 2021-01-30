@@ -59,8 +59,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 6
+  m_PointLightInnerRadius: 2
+  m_PointLightOuterRadius: 8
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -85,11 +85,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 606c69e5d70a42345b5b9b7f3e139bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxOilSeconds: 20
-  oilSeconds: 20
+  maxOilSeconds: 30
+  oilSeconds: 30
   fullLanternRadius: 0
+  innerLightRadius: 0
   dimmingLightThreshold: 10
-  refillSpeed: 2.6
+  refillSpeed: 3.2
   movementActive: {fileID: 11400000, guid: 9a45c03214714ff43868a82934fc370e, type: 2}
 --- !u!1 &3193661956116069397
 GameObject:
