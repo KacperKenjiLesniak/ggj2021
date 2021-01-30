@@ -150,6 +150,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4933375983417842383}
     m_Modifications:
+    - target: {fileID: 624635956657371087, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_LightCookieSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 77f17199c8db6f548bf67829113e8e56, type: 3}
+    - target: {fileID: 1692427496903023688, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692427496903023688, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5381143212392152612, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -193,10 +205,6 @@ PrefabInstance:
     - target: {fileID: 5381143212392152612, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5381143212392152614, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
-      propertyPath: m_Radius
-      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5381143212392152615, guid: 52b943cff9a41214994d9deaf4bfd67e, type: 3}
       propertyPath: m_Size.x
