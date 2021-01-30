@@ -276,7 +276,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -300,7 +300,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5699997, y: 3.2499998, z: -10}
+  m_LocalPosition: {x: -1.5699995, y: 3.2499995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -917,17 +917,21 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1969403494}
+    - target: {fileID: 996098680889984022, guid: 4874112f398ba4943a0f673bac81690b, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 996098680889984023, guid: 4874112f398ba4943a0f673bac81690b, type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 996098680889984023, guid: 4874112f398ba4943a0f673bac81690b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5699997
+      value: -1.5699995
       objectReference: {fileID: 0}
     - target: {fileID: 996098680889984023, guid: 4874112f398ba4943a0f673bac81690b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2499998
+      value: 3.2499995
       objectReference: {fileID: 0}
     - target: {fileID: 996098680889984023, guid: 4874112f398ba4943a0f673bac81690b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1074,6 +1078,10 @@ PrefabInstance:
     - target: {fileID: 3193661956116069397, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
       propertyPath: m_Name
       value: Boat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746838530090930953, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2efcf54b893f65e46a21a45057ec6866, type: 3}
