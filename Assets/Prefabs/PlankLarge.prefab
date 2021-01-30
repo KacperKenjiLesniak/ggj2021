@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 8780416616224724497}
   - component: {fileID: 8780416616224724498}
   - component: {fileID: 8780416616224724493}
+  - component: {fileID: 713798412621882607}
   m_Layer: 0
-  m_Name: Wood (4)
+  m_Name: PlankLarge
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,3 +201,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomForceStrength: 5
+--- !u!114 &713798412621882607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8780416616224724502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d19a2143ae14647ab85c794abb3d32d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

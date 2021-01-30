@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21db6c450dc447148ebdd67c2a7c553d, type: 3}
-  m_Name: BoatDamaged
+  m_Name: BoatDamagedStone
   m_EditorClassIdentifier: 
   debug: 0
