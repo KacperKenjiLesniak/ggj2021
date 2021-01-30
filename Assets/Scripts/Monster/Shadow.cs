@@ -34,6 +34,9 @@ namespace Monster
                 {
                     swimmingAway = true;
                 }
+                
+                var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle + 90f, Vector3.forward);
                 transform.position += direction * (shadowSpeed * Time.deltaTime);
             }
         }
