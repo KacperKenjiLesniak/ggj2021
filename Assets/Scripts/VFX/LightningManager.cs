@@ -6,32 +6,30 @@ public class LightningManager : MonoBehaviour
 {
 
     [SerializeField] private int odds;
-    [SerializeField] private int Scenarios;
+    [SerializeField] private int maxLightningInterval;
     [SerializeField] private Animator animator;
-    [SerializeField] private int randomNumber;
+    private int randomNumber;
     [SerializeField] private float xPosLimit;
     [SerializeField] private float yPosLimit;
 
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke(nameof(Lighting), Random.Range(1, maxLightningInterval));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        randomNumber = Random.Range(0, Scenarios);
 
-        if(randomNumber<odds)
-        {
-            transform.position = new Vector3(Random.Range(-1 * (xPosLimit), xPosLimit), Random.Range(-1 * (yPosLimit), yPosLimit), transform.position.z);
-            animator.SetBool("ActiveLight", true);
-        }
-        else
-        {
-            animator.SetBool("ActiveLight", false);
-        }
+    void Lighting()
+    {
+        transform.position = new Vector3(Random.Range(-1 * (xPosLimit), xPosLimit), Random.Range(-1 * (yPosLimit), yPosLimit), transform.position.z);
+        animator.SetBool("ActiveLight", true);
+
+        Invoke(nameof(Lighting), Random.Range(1, maxLightningInterval));
+        Invoke(nameof(LightningOff), 0.5f);
+    }
+
+    void LightningOff()
+    {
+        animator.SetBool("ActiveLight", false);
     }
 }
