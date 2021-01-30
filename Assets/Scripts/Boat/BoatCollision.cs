@@ -20,10 +20,6 @@ namespace Boat
                 {
                     boatHealth.Value -= 1;
                     Debug.Log("Boat health: " + boatHealth.Value);
-                    if (boatHealth.Value <= 0)
-                    {
-                        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                    }
                 }
             }
         }

@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091587307}
   m_LocalRotation: {x: -0, y: -0, z: -0.104290724, w: 0.9945469}
-  m_LocalPosition: {x: 0.32, y: -7.46, z: 0}
+  m_LocalPosition: {x: -0.21, y: -2.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3193661956116069392}
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 3.3129385
+  m_PointLightOuterRadius: 6
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -106,9 +106,11 @@ GameObject:
   - component: {fileID: 4513123889804793216}
   - component: {fileID: 3641451733448353895}
   - component: {fileID: 8746838530090930953}
+  - component: {fileID: 3193661955388246648}
+  - component: {fileID: 2200717931819830139}
   m_Layer: 0
   m_Name: Boat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,7 +199,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!114 &3193661956116069393
@@ -216,7 +218,7 @@ MonoBehaviour:
   turnSpeed: 6
   maxSpeed: 6
   movementActive: {fileID: 11400000, guid: 9a45c03214714ff43868a82934fc370e, type: 2}
-  boatPosition: {fileID: 0}
+  boatPosition: {fileID: 11400000, guid: d90c786e9c6a81d4eaacd4bf03891727, type: 2}
 --- !u!95 &4513123889804793216
 Animator:
   serializedVersion: 3
@@ -462,3 +464,30 @@ PolygonCollider2D:
       - {x: 0.22, y: -2.5549998}
       - {x: 0.34, y: -2.5449998}
       - {x: 0.44, y: -2.5349998}
+--- !u!114 &3193661955388246648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193661956116069397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de21cfd905a845b986d745fc202beb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boatHealth: {fileID: 11400000, guid: c3fab77d792b33d46870731c9913deca, type: 2}
+  collisionSpeedThreshold: 1
+--- !u!114 &2200717931819830139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193661956116069397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76e11b2f96441a19789d7af2971a292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boatHealth: {fileID: 11400000, guid: c3fab77d792b33d46870731c9913deca, type: 2}
