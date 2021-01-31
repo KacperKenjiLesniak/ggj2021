@@ -8,7 +8,7 @@ namespace UI
     {
         private void Start()
         {
-            InvokeRepeating(nameof(PlaySignalAnimation), 0f, 8f);
+            InvokeRepeating(nameof(PlaySignalAnimation), 2f, 8f);
         }
 
         private void PlaySignalAnimation()
