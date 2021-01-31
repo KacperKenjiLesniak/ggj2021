@@ -138,6 +138,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4933375983417842383}
     m_Modifications:
+    - target: {fileID: 6353628911954344539, guid: b8c51a23d0a8b514db0ef6acee261862, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
     - target: {fileID: 7657185854478353530, guid: b8c51a23d0a8b514db0ef6acee261862, type: 3}
       propertyPath: m_Name
       value: Signal

@@ -1953,6 +1953,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6475433877858129732, guid: 7613a3c16c37e3747a6f1a8f03d42111, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
     - target: {fileID: 6475433877858129733, guid: 7613a3c16c37e3747a6f1a8f03d42111, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3471,5 +3475,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: AmbientSounds
       objectReference: {fileID: 0}
+    - target: {fileID: 8250746582166580018, guid: b36458cac88e4bc4695b856024c08487, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b36458cac88e4bc4695b856024c08487, type: 3}

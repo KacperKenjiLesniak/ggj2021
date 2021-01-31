@@ -508,7 +508,7 @@ AudioSource:
   m_GameObject: {fileID: 6297011216364745050}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
   m_audioClip: {fileID: 8300000, guid: 53c3f52027962bc429acfffdde509433, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0
@@ -635,6 +635,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: c2abe2b9e7576524ea11b8dfcd390120, type: 3}
     - target: {fileID: 7193706456078452674, guid: e1509925fada41048bcfb9a5ee24a38a, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
+    - target: {fileID: 7193706456078452674, guid: e1509925fada41048bcfb9a5ee24a38a, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
@@ -726,6 +730,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 6649d4536618ca24fb21306cf4c16e4a, type: 3}
     - target: {fileID: 7193706456078452674, guid: e1509925fada41048bcfb9a5ee24a38a, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
+    - target: {fileID: 7193706456078452674, guid: e1509925fada41048bcfb9a5ee24a38a, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
@@ -803,6 +811,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 5fff424ca925f8a40b1d841ee6ceaaa5, type: 3}
+    - target: {fileID: 7193706456078452674, guid: e1509925fada41048bcfb9a5ee24a38a, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: d590048b8838f234c9cafb7c26002ebd, type: 2}
     - target: {fileID: 7193706456078452674, guid: e1509925fada41048bcfb9a5ee24a38a, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 1
