@@ -24,7 +24,7 @@ public class BoatController : MonoBehaviour
 
     private void Update()
     {
-        boatPosition.Value = transform.position;
+        boatPosition.Value = transform.position + new Vector3(0f, -3f, 0f);
     }
 
     void FixedUpdate () {
