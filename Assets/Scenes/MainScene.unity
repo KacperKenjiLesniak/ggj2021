@@ -21993,6 +21993,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicArea (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9059667948467638636, guid: cab09f8ee20fb664986906944ecad18b, type: 3}
+      propertyPath: m_Size.x
+      value: 23.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059667948467638636, guid: cab09f8ee20fb664986906944ecad18b, type: 3}
+      propertyPath: m_Size.y
+      value: 22.8
+      objectReference: {fileID: 0}
     - target: {fileID: 9059667948467638639, guid: cab09f8ee20fb664986906944ecad18b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -29568,6 +29576,10 @@ PrefabInstance:
     - target: {fileID: 9059667948467638626, guid: cab09f8ee20fb664986906944ecad18b, type: 3}
       propertyPath: m_Name
       value: MusicArea (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059667948467638636, guid: cab09f8ee20fb664986906944ecad18b, type: 3}
+      propertyPath: m_Size.y
+      value: 29.7
       objectReference: {fileID: 0}
     - target: {fileID: 9059667948467638639, guid: cab09f8ee20fb664986906944ecad18b, type: 3}
       propertyPath: m_RootOrder
