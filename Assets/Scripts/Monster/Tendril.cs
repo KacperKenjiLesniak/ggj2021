@@ -50,7 +50,7 @@ namespace Monster
                     
                     if (transform.localScale.x <= maxScale)
                     {
-                        transform.localScale *= (1 + (scaleSpeed * Time.deltaTime));
+                        transform.localScale += new Vector3(1f, 1f, 0f) * (scaleSpeed * Time.deltaTime);
                     }
                     else
                     {
