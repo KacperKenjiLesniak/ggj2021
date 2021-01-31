@@ -29,7 +29,7 @@ namespace Boat
 
         private void ReloadLevel()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
     }
 }
