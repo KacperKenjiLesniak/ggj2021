@@ -28651,6 +28651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1621410520}
     m_Modifications:
+    - target: {fileID: 1552664020938768361, guid: b8d5038826e55df43bfd6b23ba0cce44, type: 3}
+      propertyPath: m_Radius
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4933375983417842377, guid: b8d5038826e55df43bfd6b23ba0cce44, type: 3}
       propertyPath: m_Name
       value: Lifeboat
