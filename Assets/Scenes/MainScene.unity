@@ -20873,7 +20873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1388868912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22516,7 +22516,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
@@ -23880,9 +23880,9 @@ Transform:
   - {fileID: 1119026949}
   - {fileID: 2099345424}
   - {fileID: 1882388850}
-  - {fileID: 149607902}
   - {fileID: 564615691}
   - {fileID: 1015138573}
+  - {fileID: 149607902}
   - {fileID: 572255288}
   - {fileID: 591614015}
   - {fileID: 1350773261}
