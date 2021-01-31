@@ -4344,7 +4344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3980278004642144714, guid: b9b6f34c3d6b16542a465b1953684bbc, type: 3}
       propertyPath: maxVolume
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3980278004642144715, guid: b9b6f34c3d6b16542a465b1953684bbc, type: 3}
       propertyPath: m_Name
