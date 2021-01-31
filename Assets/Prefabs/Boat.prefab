@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boatHealth: {fileID: 11400000, guid: c3fab77d792b33d46870731c9913deca, type: 2}
-  movementActive: {fileID: 0}
+  movementActive: {fileID: 11400000, guid: 9a45c03214714ff43868a82934fc370e, type: 2}
 --- !u!82 &3927117785915083019
 AudioSource:
   m_ObjectHideFlags: 0

@@ -10,13 +10,19 @@ namespace Boat
     {
         [SerializeField] private MutableInt boatHealth;
         [SerializeField] private MutableBool movementActive;
+
+        private bool dead;
         
         private void Update()
         {
             if (boatHealth.Value <= 0)
             {
-                GetComponent<Animator>().SetTrigger("die");
+                if (!dead)
+                {
+                    GetComponent<Animator>().SetTrigger("die");
+                }
                 movementActive.Value = false;
+                dead = true;
                 Invoke(nameof(ReloadLevel), 4f);
             }
         }
