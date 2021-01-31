@@ -12,7 +12,12 @@ namespace Boat
         [SerializeField] private MutableBool movementActive;
 
         private bool dead;
-        
+
+        private void Start()
+        {
+            boatHealth.Value = 3;
+        }
+
         private void Update()
         {
             if (boatHealth.Value <= 0)
@@ -29,7 +34,7 @@ namespace Boat
 
         private void ReloadLevel()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
     }
 }
