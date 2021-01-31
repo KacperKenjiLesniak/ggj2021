@@ -12,7 +12,12 @@ namespace Boat
         [SerializeField] private MutableBool movementActive;
 
         private bool dead;
-        
+
+        private void Start()
+        {
+            boatHealth.Value = 3;
+        }
+
         private void Update()
         {
             if (boatHealth.Value <= 0)
