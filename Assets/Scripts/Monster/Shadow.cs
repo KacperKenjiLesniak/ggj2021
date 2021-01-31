@@ -19,7 +19,7 @@ namespace Monster
         {
             var boatDistance = Vector3.Distance(transform.position, boatPosition.Value);
             
-            if (!following &&  boatDistance <= shadowAttractRadius)
+            if (!following && boatDistance <= shadowAttractRadius)
             {
                 following = true;
             }
