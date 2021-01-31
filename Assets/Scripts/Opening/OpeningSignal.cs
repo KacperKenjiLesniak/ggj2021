@@ -14,6 +14,7 @@ namespace Opening
         private Vector3 screenPos;
         private Vector2 onScreenPos;
         private float max;
+        private float speed = 100f;
         private Camera camera;
         private bool moving;
         private bool fading;
@@ -40,8 +41,9 @@ namespace Opening
                 GetComponent<RectTransform>().anchoredPosition = Vector2.MoveTowards(
                     GetComponent<RectTransform>().anchoredPosition,
                     target,
-                    Time.deltaTime * 400f
+                    Time.deltaTime * speed
                 );
+                speed += 300 * Time.deltaTime;
             }
 
             if (fading)
