@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 4638518117194077993}
   - component: {fileID: 8959153286415305432}
   - component: {fileID: 9220666946805373748}
+  - component: {fileID: 1355166590329942844}
   m_Layer: 0
   m_Name: paddleSplash_01
   m_TagString: Untagged
@@ -487,3 +488,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1355166590329942844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532949109201215945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5a2d33d6f5474eba5a5a72596b1cc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
