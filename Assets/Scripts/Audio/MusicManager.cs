@@ -9,6 +9,7 @@ namespace Audio
     {
         [SerializeField] private GameEvent enterNewAreaEvent;
         [SerializeField] private AudioSource[] musicSources;
+        [SerializeField] private float maxVolume = 1f;
 
         private int currentSource;
         private bool blending;
@@ -16,7 +17,7 @@ namespace Audio
         private void Start()
         {
             enterNewAreaEvent.RegisterListener(this);
-            musicSources[0].volume = 1f;
+            musicSources[0].volume = maxVolume;
         }
         
         public void RaiseGameEvent()
@@ -29,8 +30,8 @@ namespace Audio
         {
             if (blending)
             {
-                musicSources[currentSource].volume += Time.deltaTime;
-                if (musicSources[currentSource].volume >= 1f)
+                musicSources[currentSource].volume += Time.deltaTime/2;
+                if (musicSources[currentSource].volume >= maxVolume)
                 {
                     blending = false;
                 }
