@@ -227,6 +227,7 @@ MonoBehaviour:
   boatPosition: {fileID: 11400000, guid: d90c786e9c6a81d4eaacd4bf03891727, type: 2}
   rowingSource: {fileID: 146386373385615451}
   boatRowingVolume: 0.6
+  splashes: {fileID: 0}
 --- !u!95 &4513123889804793216
 Animator:
   serializedVersion: 3
