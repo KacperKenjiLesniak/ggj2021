@@ -19,6 +19,7 @@ public class BoatController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        movementActive.Value = true;
     }
 
     private void Update()

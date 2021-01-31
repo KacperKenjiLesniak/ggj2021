@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using MutableObjects.Bool;
@@ -7,7 +8,12 @@ public class AnimationManager : MonoBehaviour
 {
     [SerializeField] private MutableBool movementActive;
 
-    [SerializeField] private Animator animator;
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
