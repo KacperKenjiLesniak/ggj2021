@@ -19,6 +19,13 @@ namespace Obstacles
                 GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-randomForceStrength, randomForceStrength), Random.Range(-randomForceStrength, randomForceStrength)));
                 activated = true;
             }
+
+            if (activated && Vector2.Distance(boatPosition.Value, transform.position) > distanceToActivate)
+            {
+                activated = false;
+                GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+                GetComponent<Rigidbody2D>().angularVelocity = 0f;
+            }
         }
     }
 }
