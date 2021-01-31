@@ -54,6 +54,7 @@ namespace Monster
                     }
                     else
                     {
+                        GetComponent<Animator>().SetTrigger("Chomp");
                         attacking = true;
                         Invoke(nameof(Disappear), 2f);
                     }
